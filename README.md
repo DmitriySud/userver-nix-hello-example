@@ -1,6 +1,7 @@
-#Note 
+# Note 
 
-This example is mostly AI-generated. Do not use it as an example of "how to do it"
+> [!WARNING]
+> This example is mostly AI-generated. Do not use it as an example of "how to do it"
 
 # hello-service
 

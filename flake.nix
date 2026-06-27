@@ -44,7 +44,6 @@
 
           buildInputs = [
             userver
-            pkgs.gbenchmark
           ];
 
           # Point find_package(userver ...) at the wrapper's installed package.
