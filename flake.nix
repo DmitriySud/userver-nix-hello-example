@@ -21,7 +21,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, flake-utils, userver-nix }:
+  outputs = { self, nixpkgs, flake-utils, userver-src, userver-nix }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};

@@ -1,3 +1,7 @@
+#Note 
+
+This example is mostly AI-generated. Do not use it as an example of "how to do it"
+
 # hello-service
 
 A minimal [userver](https://userver.tech) HTTP service, based on userver's
@@ -27,6 +31,9 @@ Point the `userver-nix` input at your wrapper (edit `flake.nix`), then:
 ```sh
 nix build            # builds the service
 nix run              # runs it with the bundled static_config.yaml
+
+# To build with local overrides use override-input
+nix build .#hello-service --override-input userver-src ../userver --override-input userver-nix ../userver-nix
 ```
 
 Send a request from another terminal:
